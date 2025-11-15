@@ -1,0 +1,189 @@
+#page-top {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-body {
+  padding: 1rem;
+  height: calc(100vh - 45px);
+  overflow-y: scroll;
+  margin-top: 60px;
+}
+.content-body h1 {
+  color: #5a5c69 !important;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.content-body h2 {
+  color: #5a5c69 !important;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.shadow {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+}
+
+.border-left {
+  border-left: 0.25rem solid #4e73df !important;
+}
+
+.text-xs {
+  font-size: 0.7rem;
+}
+
+.text-primary {
+  color: #4e73df !important;
+}
+
+.toolUpload label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.toolUpload input,
+.toolUpload select {
+  font-size: 13px;
+  font-weight: 500;
+  color: #706868;
+}
+.toolUpload input:focus,
+.toolUpload select:focus {
+  outline: unset;
+  box-shadow: none;
+}
+.toolUpload input::-moz-placeholder, .toolUpload select::-moz-placeholder {
+  font-size: 13px;
+}
+.toolUpload input::placeholder,
+.toolUpload select::placeholder {
+  font-size: 13px;
+}
+
+.categoryList .table th,
+.categoryList .table td {
+  min-width: 150px;
+  font-size: 12px;
+}
+
+.main-wrap .leftWrap {
+  width: 18%;
+}
+.main-wrap .rightWrap {
+  width: 82%;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  padding-left: 14rem;
+}
+.header .navbar {
+  background-color: #fff !important;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.sidebar {
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  width: 14rem !important;
+}
+.sidebar .sidebar-brand {
+  height: 4.375rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 1.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  z-index: 1;
+  color: #fff;
+}
+.sidebar .sidebar-brand .sidebar-brand-icon i {
+  font-size: 2rem;
+}
+.sidebar .sidebar-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 0 1rem 1rem;
+}
+.sidebar .nav-item {
+  position: relative;
+}
+.sidebar .nav-item a {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  width: 14rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.sidebar .sidebar-heading {
+  text-align: left;
+  padding: 0 1rem;
+  font-weight: 800;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.login-page {
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-size: cover;
+  height: 100%;
+}
+.login-page .btn-user {
+  color: #fff;
+  background-color: #2653d4;
+  border-color: #244ec9;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 50px;
+}
+
+.login-page label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-page input,
+.login-page select {
+  font-size: 13px;
+  font-weight: 500;
+  color: #706868;
+}
+
+.login-page input:focus,
+.login-page select:focus,
+.login-page textarea:focus {
+  outline: unset;
+  box-shadow: none;
+}
+
+.login-page input::-moz-placeholder, .login-page select::-moz-placeholder, .login-page textarea::-moz-placeholder {
+  font-size: 13px;
+}
+
+.login-page input::placeholder,
+.login-page select::placeholder,
+.login-page textarea::placeholder {
+  font-size: 13px;
+}/*# sourceMappingURL=admin-style.css.map */
